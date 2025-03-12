@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build --base=/ArsenShulika/gallery-form/",
+    "build": "vite build --base=/gallery-form/",
     "preview": "vite preview"
   },
   "devDependencies": {
