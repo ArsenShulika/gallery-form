@@ -1,0 +1,95 @@
+.form {
+    display: block;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+}
+
+.form-label-input {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    display: inline-block;
+    width: 360px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-radius: 3.5px;
+    outline: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 8px 16px;
+}
+
+.form-input:focus {
+    border: 1px solid #4e75ff;
+}
+
+.form-label-textarea {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.form-textarea {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 360px;
+    font-size: 16px;
+    height: 79px;
+    margin-bottom: 16px;
+    border-radius: 3.5px;
+    resize: none;
+    outline: transparent;
+    padding: 8px 16px;
+
+}
+
+
+
+.form-textarea::placeholder {
+    opacity: 0;
+}
+
+.form-textarea:focus::placeholder {
+    opacity: 1;
+}
+
+.form-textarea:focus {
+    border: 1px solid #4e75ff;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: transparent;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
